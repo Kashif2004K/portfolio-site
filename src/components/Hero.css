@@ -1,11 +1,65 @@
 .circle {
   background-color: #fdc435;
-  width: 700px;
-  height: 700px;
+  width: 800px;
+  height: 550px;
   border-radius: 50%;
   position: absolute;
   top: 0;
   right: 0;
-  transform: translate(20%, -20%);
+  transform: translate(15%, -15%);
   z-index: -1;
+  overflow: hidden;
+}
+
+img {
+  margin-top: 200px;
+  margin-left: 100px;
+  width: 400px;
+}
+
+.hero-text {
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 500px;
+}
+
+.hero-role {
+  color: #fdc435;
+}
+
+.hero-text h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 3rem;
+  color: rgb(44, 44, 44);
+}
+
+.hero-intro {
+  color: gray;
+  margin-top: 30px;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+button {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.btn-P {
+  padding: 10px 20px;
+  background-color: #fdc435;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-L {
+  padding: 10px 20px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
 }
