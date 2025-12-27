@@ -1,0 +1,15 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+
+.nav-links {
+}
+
+ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
