@@ -8,6 +8,12 @@
 .social-icon {
   width: 34px;
   margin-bottom: 25px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
 }
 
 .footer-text {

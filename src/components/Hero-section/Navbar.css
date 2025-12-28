@@ -14,3 +14,14 @@ ul {
   gap: 40px;
   list-style: none;
 }
+
+ul li {
+  transition: text-decoration 0.3s ease;
+  cursor: pointer;
+}
+
+ul li:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 6px;
+}

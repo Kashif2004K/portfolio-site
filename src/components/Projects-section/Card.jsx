@@ -1,5 +1,4 @@
 import "./Card.css";
-// import content from "./content";
 
 const Card = ({ title, description, image, variant }) => {
   return (

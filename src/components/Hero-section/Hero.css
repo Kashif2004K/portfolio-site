@@ -12,10 +12,6 @@
   box-shadow: inset 0 8px 20px rgba(0, 0, 0, 0.5);
 }
 
-.hero {
-  /* height: 100vh; */
-}
-
 .circle img {
   margin-top: 220px;
   margin-left: 100px;
@@ -61,6 +57,12 @@ button {
   margin-top: 20px;
   font-weight: bold;
   font-size: 14px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: translateY(-2px) scale(1.05);
 }
 
 .btn-P {
@@ -74,7 +76,7 @@ button {
 .btn-L {
   padding: 10px 20px;
   color: black;
-  border: 1px solid black;
+  border: inset 1px solid black;
   border-radius: 5px;
   cursor: pointer;
   margin-left: 10px;
