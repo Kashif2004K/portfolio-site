@@ -1,7 +1,7 @@
 import "./Card.css";
 // import content from "./content";
 
-const Card = ({ title, description, image, video, variant }) => {
+const Card = ({ title, description, image, variant }) => {
   return (
     <div>
       <div className={`project-card ${variant}`}>
@@ -11,10 +11,7 @@ const Card = ({ title, description, image, video, variant }) => {
           <button>View Project</button>
         </div>
         <div className="card-img">
-          {/* <img src={image} alt={title} /> */}
-          <div>
-            <video src={video} autoPlay loop muted />
-          </div>
+          <img src={image} alt={title} />
         </div>
       </div>
     </div>

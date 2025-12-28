@@ -1,6 +1,7 @@
 import "./Hero.css";
 import Navbar from "./Navbar";
 import profileImg from "../../assets/project-photos/img-kashif.png";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
