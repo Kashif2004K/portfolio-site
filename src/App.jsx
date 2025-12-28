@@ -1,11 +1,11 @@
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
+import Hero from "./components/Hero-section/Hero";
+import Projects from "./components/Projects-section/Projects";
 
 const App = () => {
   return (
     <div>
-      <Navbar />
       <Hero />
+      <Projects />
     </div>
   );
 };

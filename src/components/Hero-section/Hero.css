@@ -11,6 +11,10 @@
   overflow: hidden;
 }
 
+.hero {
+  height: 100vh;
+}
+
 img {
   margin-top: 200px;
   margin-left: 100px;
