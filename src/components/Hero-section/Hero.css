@@ -12,10 +12,10 @@
 }
 
 .hero {
-  height: 100vh;
+  /* height: 100vh; */
 }
 
-img {
+.circle img {
   margin-top: 200px;
   margin-left: 100px;
   width: 400px;
