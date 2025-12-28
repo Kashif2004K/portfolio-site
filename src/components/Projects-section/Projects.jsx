@@ -12,7 +12,8 @@ const Projects = () => {
             key={project.id}
             title={project.title}
             description={project.description}
-            image={project.image}
+            // image={project.image}
+            video={project.video}
             variant={project.variant}
           />
         ))}

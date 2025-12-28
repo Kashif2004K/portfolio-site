@@ -47,6 +47,12 @@
   height: 100%;
 }
 
+.card-img video {
+  width: 400px;
+  height: 490px;
+  object-fit: cover;
+}
+
 .project-card.reverse {
   flex-direction: row-reverse;
 }
