@@ -34,6 +34,7 @@
   padding: 10px 18px;
   border-radius: 20px;
   border: 1px solid #000;
+  background: transparent;
 }
 
 .card-img {

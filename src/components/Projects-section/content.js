@@ -1,4 +1,4 @@
-import cardImg from "../../assets/tame-impala.jpeg";
+import cardImg from "../../assets/project-photos/tame-impala.jpeg";
 
 const projects = [
   {

@@ -1,6 +1,6 @@
 import "./Hero.css";
 import Navbar from "./Navbar";
-import profileImg from "../../assets/img-kashif.png";
+import profileImg from "../../assets/project-photos/img-kashif.png";
 
 const Hero = () => {
   return (

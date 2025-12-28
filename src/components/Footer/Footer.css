@@ -1,0 +1,22 @@
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.social-icon {
+  width: 34px;
+  margin-bottom: 25px;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 15px;
+  color: #777;
+}
+
+.footer {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
