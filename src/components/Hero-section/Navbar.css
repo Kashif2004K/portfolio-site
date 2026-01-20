@@ -2,11 +2,11 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 100px;
+  padding: 30px 100px;
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: clamp(16px, 1.5vw, 40px);
 }
 
 ul {
