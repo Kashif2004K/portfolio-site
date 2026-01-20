@@ -4,7 +4,7 @@ import profileImg from "../../assets/project-photos/img-kashif.png";
 
 const Hero = () => {
   return (
-    <div>
+    <div className="hero-container">
       <Navbar />
       <div className="hero">
         <div className="circle">
